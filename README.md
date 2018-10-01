@@ -50,7 +50,7 @@ Tabunganku is currently extended with the following plugins. Instructions on how
 
 ### Tester
 
-Let's drive an `apk` by catch on [DOWNLOAD PAGE]()
+Let's drive an `apk` by catch on [DOWNLOAD PAGE](https://github.com/CreatorB/Tabunganku/raw/master/apk/Tabunganku-v1.0.apk)
 
 
 ### Todos

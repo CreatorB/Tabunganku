@@ -1,9 +1,9 @@
 <resources>
-    <string name="app_name">Tabunganku</string>
+    <string name="app_name">Tabungan MI  Adi Poday</string>
 
     <!--drawer-->
     <string-array name="nav_drawer_title">
-        <item>Riwayat</item>
+        <item>Transaksi</item>
         <item>Nasabah</item>
     </string-array>
 

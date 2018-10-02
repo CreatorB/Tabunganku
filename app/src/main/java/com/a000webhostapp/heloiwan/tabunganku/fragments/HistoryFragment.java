@@ -207,8 +207,8 @@ public class HistoryFragment extends Fragment implements View.OnClickListener{
         TableRow tr = new TableRow(mContext);
 //        tr.setLayoutParams(getLayoutParams());
         tr.addView(getTextView(0, "Id", Color.WHITE, Typeface.BOLD, getResources().getColor(R.color.colorPrimaryDark)));
-        tr.addView(getTextView(0, "Nama", Color.WHITE, Typeface.BOLD, getResources().getColor(R.color.colorPrimaryDark)));
-        tr.addView(getTextView(0, "No Rekening", Color.WHITE, Typeface.BOLD, getResources().getColor(R.color.colorPrimaryDark)));
+        tr.addView(getTextView(0, "Nama Siswa", Color.WHITE, Typeface.BOLD, getResources().getColor(R.color.colorPrimaryDark)));
+        tr.addView(getTextView(0, "No Induk", Color.WHITE, Typeface.BOLD, getResources().getColor(R.color.colorPrimaryDark)));
         tr.addView(getTextView(0, "Tanggal", Color.WHITE, Typeface.BOLD, getResources().getColor(R.color.colorPrimaryDark)));
         tr.addView(getTextView(0, "Debit", Color.WHITE, Typeface.BOLD, getResources().getColor(R.color.colorPrimaryDark)));
         tr.addView(getTextView(0, "Kredit", Color.WHITE, Typeface.BOLD, getResources().getColor(R.color.colorPrimaryDark)));
@@ -220,8 +220,8 @@ public class HistoryFragment extends Fragment implements View.OnClickListener{
 
 
         tr.addView(getTextView(0, "Id", Color.WHITE, Typeface.BOLD, getResources().getColor(R.color.colorPrimaryDark)));
-        tr.addView(getTextView(0, "Nama", Color.WHITE, Typeface.BOLD, getResources().getColor(R.color.colorPrimaryDark)));
-        tr.addView(getTextView(0, "No Rekening", Color.WHITE, Typeface.BOLD, getResources().getColor(R.color.colorPrimaryDark)));
+        tr.addView(getTextView(0, "Nama Siswa", Color.WHITE, Typeface.BOLD, getResources().getColor(R.color.colorPrimaryDark)));
+        tr.addView(getTextView(0, "No Induk", Color.WHITE, Typeface.BOLD, getResources().getColor(R.color.colorPrimaryDark)));
         tr.addView(getTextView(0, "Tanggal", Color.WHITE, Typeface.BOLD, getResources().getColor(R.color.colorPrimaryDark)));
         tr.addView(getTextView(0, "Debit", Color.WHITE, Typeface.BOLD, getResources().getColor(R.color.colorPrimaryDark)));
         tr.addView(getTextView(0, "Kredit", Color.WHITE, Typeface.BOLD, getResources().getColor(R.color.colorPrimaryDark)));

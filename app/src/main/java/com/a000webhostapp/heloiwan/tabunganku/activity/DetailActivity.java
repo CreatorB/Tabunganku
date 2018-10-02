@@ -38,6 +38,12 @@ public class DetailActivity extends AppCompatActivity implements Validator.Valid
     @BindView(R.id.etId)
     EditText mId;
     @NotEmpty
+    @BindView(R.id.etName)
+    EditText mName;
+    @NotEmpty
+    @BindView(R.id.etSaldo)
+    EditText mSaldo;
+    @NotEmpty
     @BindView(R.id.etDate)
     EditText mDate;
     @NotEmpty
@@ -61,6 +67,7 @@ public class DetailActivity extends AppCompatActivity implements Validator.Valid
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setTitle("Tambah Transaksi");
         ButterKnife.bind(this);
         pd = new App.LoadingPrimary(this);
         validator = new Validator(this);
@@ -103,7 +110,8 @@ public class DetailActivity extends AppCompatActivity implements Validator.Valid
                         if (ret.isStatus()) {
                             Prefs.putString(Constants.NASABAH_ID,ret.getData().get(0).getIdNasabah());
                             mId.setText(ret.getData().get(0).getIdNasabah());
-                            mId.setEnabled(false);
+                            mName.setText(ret.getData().get(0).getNama());
+                            mSaldo.setText(ret.getData().get(0).getSaldo());
                         } else {
                             App.TShort("Can't get nasabah id");
                         }

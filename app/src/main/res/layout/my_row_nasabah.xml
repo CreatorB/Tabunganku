@@ -38,7 +38,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="8dp"
-                    android:text="No Rekening"
+                    android:text="No Induk"
                     android:textColor="@android:color/tertiary_text_dark"
                     android:textAppearance="@style/TextAppearance.AppCompat.Title"/>
 
